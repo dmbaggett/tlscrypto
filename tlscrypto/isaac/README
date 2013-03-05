@@ -1,0 +1,3 @@
+Bob Jenkins' ISAAC pseudorandom number generator, suitable for use in
+cryptography. See: http://www.burtleburtle.net/bob/rand/isaacafa.html
+

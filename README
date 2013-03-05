@@ -1,0 +1,12 @@
+Most modules in here come from pycrypto 2.6. I've separated out only
+the parts needed for TLS to simplify porting to other platforms, and
+to eliminate dependencies on GPL code.
+
+The only change I made here is in hash_template.c, block_template.c,
+and stream_template.c, where I removed "Crypto.Hash." from the module
+names.
+
+I've also put my Python bindings for the ISAAC PRNG in here.
+
+-- Dave Baggett
+
