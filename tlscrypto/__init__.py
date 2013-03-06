@@ -1,6 +1,1 @@
-import _AES
-import _ARC2
-import _ARC4
-import _isaac
-import _MD2
-import _MD4
+# tlscrypto is a subset of pycrypto 2.6 for use with TLS
