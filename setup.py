@@ -25,7 +25,7 @@ setup(name='tlscrypto',
             extra_link_args=extra_link_args),
         Extension(
             name='tlscrypto._isaac',
-            sources=['tlscrypto/isaac/ISAAC.c', 'tlscrypto/isaac/rand.c' ],
+            sources=['tlscrypto/isaac/isaac.c', 'tlscrypto/isaac/rand.c' ],
             extra_compile_args=extra_compile_args,
             extra_link_args=extra_link_args),
         Extension(
