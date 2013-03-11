@@ -6,7 +6,5 @@ The only change I made here is in hash_template.c, block_template.c,
 and stream_template.c, where I removed "Crypto.Hash." from the module
 names.
 
-I've also put my Python bindings for the ISAAC PRNG in here.
-
 -- Dave Baggett
 

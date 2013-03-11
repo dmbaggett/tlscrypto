@@ -4,8 +4,7 @@
 #
 # dmb - June 2012 - Copyright (C) 2012 Arcode Corporation
 #
-from _isaac import _isaac
-
+from .._isaac import _isaac
 
 class isaac(_isaac):
     def __init__(self, seed=None):
